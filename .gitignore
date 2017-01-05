@@ -1,7 +1,7 @@
 # uploads
-tmp/*
-uploads/*
-public/results/*
+#tmp/*.*
+#uploads/*.*
+#public/results/*.*
 
 # Logs
 logs
