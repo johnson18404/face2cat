@@ -1,3 +1,8 @@
+# uploads
+tmp/*
+uploads/*
+public/results/*
+
 # Logs
 logs
 *.log

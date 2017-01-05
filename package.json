@@ -1,0 +1,24 @@
+{
+  "name": "face2cat",
+  "version": "1.0.0",
+  "description": "face2cat is a web application, replace the faces in the uploaded photo with a cute cat pattern.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "face2cat",
+    "face recognition",
+    "websocket"
+  ],
+  "author": "johnson18404",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "fs-extra": "^1.0.0",
+    "gm": "^1.23.0",
+    "randomstring": "^1.1.5",
+    "socket.io": "^1.7.2",
+    "socketio-file-upload": "^0.6.0"
+  }
+}
