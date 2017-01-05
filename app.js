@@ -62,6 +62,7 @@ io.on('connection', function(socket){
     socket.on('draw', (saveFileName, cat)=>{
       if (!(/^([a-zA-Z]|\d)+\.jpg$/g).test(saveFileName) || !(/^[0-5]$/g).test(cat) ) {
         socket.emit('drawed', 'invaild format', '');
+        return;
       }
 
       saveFileName = path.join(__dirname, 'uploads', saveFileName);
